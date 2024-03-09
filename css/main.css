@@ -143,21 +143,40 @@ max-height: 400px;
   align-items: center;
 margin: 8% 0;
   max-height: 100%;
-  gap: 1.3rem 0;
+  gap: 2rem 0;
+}
+
+.main-wrapper{
+    width: 100%;
 }
 
 @media (min-width: 1250px) {
-  .nav-barContainer {
+  .nav-barContainer{ 
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    height: 4.5rem;
+    height: 4.48rem;
+    max-height: 4.48rem;
+    width: 100%;
+
+  }
+
+
+
+
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-evenly; */
+   width: 100%;
+    background-color: #ffffff;
   }
 
   .nav-links {
     min-width: 100px;
     width: 50%;
-    max-width: 10%;
+    max-width: 15%;
     box-shadow: 10px 10px 5px 0px rgba(56, 54, 54, 0.18);
     border: none;
     padding: 1% 1%;
