@@ -78,7 +78,12 @@ body {
 }
 
 .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   height: auto;
+  background-color: #E9C46A;
+  padding: 10rem 0;
 }
 .main {
   display: flex;
@@ -106,7 +111,7 @@ body {
 }
 
 .hero > img {
-  background-color: green;
+ width: 100%;
 }
 
 .main > img {
