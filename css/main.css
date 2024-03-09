@@ -95,7 +95,7 @@ background-color: #222222;
        } 
 
     .nav-barContainer >  div {
-        background-color:darkgreen;
+        background-color: #55A630;
         cursor:auto;
         
 
@@ -109,7 +109,7 @@ background-color: #222222;
 
 
     .nav-barContainer >  div:hover {
-        background-color:darkgreen
+        background-color: #55A630;
     }
 
     
