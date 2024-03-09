@@ -90,6 +90,10 @@ background-color: #303030;
         
     }
 
+    .logo{
+        display: inline-flex;
+       } 
+
     .nav-barContainer >  div{
         background-color:darkgreen
     }
