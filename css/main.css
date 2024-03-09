@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  height: 100%;
+  border: 2px solid red;
 }
 
 .nav-barContainer {
@@ -63,9 +63,7 @@ body {
   cursor: pointer;
 }
 
-.logo {
-  display: none;
-}
+
 
 .parent-container {
   display: flex;
@@ -84,6 +82,7 @@ body {
   height: auto;
   background-color: #E9C46A;
   padding: 10rem 0;
+  width: 100%;
 }
 .main {
   display: flex;
