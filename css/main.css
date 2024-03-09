@@ -12,7 +12,7 @@
     align-items:center;
     list-style-type: none;
     max-width:100%;
-    background-color: #1e1c1c;
+    background-color: #333333;
 }
 
 .nav-links:link {
@@ -25,8 +25,8 @@
   
   .nav-links:hover {
    
-background-color: #303030;
-   color: #fff;
+background-color: #222222;
+   color: #fefefe;
 
   }
   
@@ -45,7 +45,7 @@ background-color: #303030;
     width:100%;
     max-width: 100%;
     flex-grow: 1;
-    color:#ecebea;
+    color:#e4dfdf;
     box-shadow: 10px 10px 5px 0px rgba(56, 54, 54, 0.18);
     border:1px solid #2e2d2d;
     padding: 3.4% 0;
@@ -53,6 +53,7 @@ background-color: #303030;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 1rem;
+    cursor: pointer;
    
    
 }
@@ -82,7 +83,6 @@ background-color: #303030;
         min-width: 100px;
         width:50%;
         max-width: 10%;
-        color:#ecebea;
         box-shadow: 10px 10px 5px 0px rgba(56, 54, 54, 0.18);
        border: none;
         padding: 1% 1%;
@@ -94,9 +94,19 @@ background-color: #303030;
         display: inline-flex;
        } 
 
-    .nav-barContainer >  div{
-        background-color:darkgreen
+    .nav-barContainer >  div {
+        background-color:darkgreen;
+        cursor:auto;
+        
+
     }
+
+    .nav-barContainer >  div > h5 {
+        color: #fefefe;
+
+    }
+
+
 
     .nav-barContainer >  div:hover {
         background-color:darkgreen
