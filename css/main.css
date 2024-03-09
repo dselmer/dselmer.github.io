@@ -151,6 +151,7 @@ margin: 8% 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    height: 4.5rem;
   }
 
   .nav-links {
