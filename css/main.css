@@ -9,9 +9,7 @@ body {
     height: 100vh;
 }
 
-.wrapper {
-   
-}
+
 
 .nav-barContainer {
     display: flex;
@@ -220,14 +218,14 @@ body {
 
     }
 
- 
+
 
     .details {
         display: flex;
         flex-flow: column;
         justify-content: center;
         align-items: center;
-       border:10px solid #E9C46A;
+        border: 10px solid #E9C46A;
         margin: 0;
         width: 50%;
         margin: 0 0;
@@ -244,7 +242,7 @@ body {
     }
 
     .main>div>img {
-        background-color: green;
+        border: 10px solid black;
         width: 100%;
     }
 
@@ -252,8 +250,36 @@ body {
         display: flex;
         flex-flow: row-reverse;
     }
+
     .hero>img {
         width: 70%;
     }
 
+}
+
+@media (min-width: 1600px) {
+
+    .hero>img {
+        max-width: 40%;
+    }
+
+    .main>div>img {
+        border: 10px solid black;
+        max-width: 50%;
+    }
+
+    .details {
+
+        max-width: 30%;
+
+    }
+
+    .main {
+
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        margin: 10% 0;
+    }
 }
