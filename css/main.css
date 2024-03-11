@@ -207,8 +207,8 @@ body {
 @media (min-width: 1250px) {
 
     .hero > iframe{
-        width:960;
-        height:315px ;
+        width:960px;
+        height:515px;
     }
     .nav-barContainer {
         display: flex;
