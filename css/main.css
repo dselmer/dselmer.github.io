@@ -21,7 +21,7 @@ body {
 }
 
 .bioPage-link:hover {
-  
+
     border: 2px solid #1d1f48;
 }
 
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
 }
 
- .bioPage-link{
+.bioPage-link {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -41,8 +41,8 @@ body {
     flex-grow: 1;
     background-color: #96c461;
     color: #fefefe;
-  
-   
+
+
     padding: 3.4% 0;
     font-family: "Aleo", serif;
     font-optical-sizing: auto;
@@ -189,8 +189,8 @@ body {
     gap: 2rem 0;
     margin-bottom: 30%;
     padding-bottom: 40%;
- 
-  
+
+
 }
 
 .main-wrapper {
