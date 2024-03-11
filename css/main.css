@@ -10,7 +10,9 @@ body {
 }
 
 
-
+.nav-links.logo {
+    display: none;
+}
 
 .bioPage-link:link {
     text-decoration: none;
@@ -197,7 +199,17 @@ body {
     width: 100%;
 }
 
+.hero > iframe{
+    width: 350px;
+    height:515px ;
+}
+
 @media (min-width: 1250px) {
+
+    .hero > iframe{
+        width:960;
+        height:315px ;
+    }
     .nav-barContainer {
         display: flex;
         flex-flow: row wrap;
