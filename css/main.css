@@ -128,7 +128,7 @@ body {
 
 .main {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     /* border: 2px solid green; */
@@ -181,12 +181,16 @@ body {
 
 .details {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: space-evenly;
     margin: 8% 0;
     max-height: 100%;
     gap: 2rem 0;
+    margin-bottom: 30%;
+    padding-bottom: 40%;
+ 
+  
 }
 
 .main-wrapper {
@@ -196,7 +200,7 @@ body {
 @media (min-width: 1250px) {
     .nav-barContainer {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-between;
         height: 4.48rem;
         max-height: 4.48rem;
