@@ -11,6 +11,49 @@ body {
 
 
 
+
+.bioPage-link:link {
+    text-decoration: none;
+}
+
+.bioPage-link:visited {
+    text-decoration: none;
+}
+
+.bioPage-link:hover {
+  
+    border: 2px solid #1d1f48;
+}
+
+.bioPage-link:active {
+    text-decoration: none;
+}
+
+ .bioPage-link{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 23.438rem;
+    width: 100%;
+    max-width: 100%;
+    flex-grow: 1;
+    background-color: #96c461;
+    color: #fefefe;
+  
+   
+    padding: 3.4% 0;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+
+
 .nav-barContainer {
     display: flex;
     flex-flow: column wrap;
@@ -78,7 +121,7 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #E9C46A;
+    background-color: #394e79;
     padding: 10rem 0;
     width: 100%;
 }
@@ -225,7 +268,7 @@ body {
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        border: 10px solid #E9C46A;
+        border: 10px solid #394e79;
         margin: 0;
         width: 50%;
         margin: 0 0;
@@ -249,6 +292,8 @@ body {
     .flex-reverse-row {
         display: flex;
         flex-flow: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero>img {
