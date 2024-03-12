@@ -9,15 +9,22 @@ body {
     height: 100%;
 }
 
+
 body,
 .navbar,
 .navbarLinks-container,
-.navbar-links{
+.navbar-links,
+.character-section,
+.profile,
+.charcter-photo{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     width: 100%;
     line-height: 2;
+}
+a:hover{
+    border: 10px solid #55A630;
 }
 
 .navbar {
@@ -106,4 +113,14 @@ iframe{
     width:300px; 
     height:215px;
     margin: 10% 0;
+}
+
+.profile{
+    /* border:2px solid red; */
+      margin-top: 30%;
+}
+
+.charcter-photo{
+    justify-content: space-evenly;
+    height: 100%;
 }
