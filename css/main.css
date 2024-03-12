@@ -23,6 +23,7 @@ body,
     width: 100%;
     line-height: 2;
 }
+
 a:hover{
     border: 10px solid #55A630;
 }
@@ -123,4 +124,8 @@ iframe{
 .charcter-photo{
     justify-content: space-evenly;
     height: 100%;
+}
+
+.character-section{
+    border-bottom: 100px solid black;
 }
