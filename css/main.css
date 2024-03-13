@@ -186,6 +186,10 @@ iframe {
         margin: 5% 0;
     }
 
+    img{
+        width: 25rem;
+    }
+
     a:hover{
         border: 12px solid green;
 
