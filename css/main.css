@@ -165,4 +165,27 @@ iframe {
     .CTA-btn {
         display: none;
     }
+
+    .character-section{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 10% 0;
+
+        /* border: 2px solid red;; */
+       
+
+    }
+
+    .profile{
+        /* border: 2px solid red; */
+        width: 50%;
+        margin: 5% 0;
+    }
+
+    a:hover{
+        border: 12px solid green;
+
+    }
 }
