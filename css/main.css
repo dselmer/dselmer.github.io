@@ -172,6 +172,7 @@ iframe {
         align-items: flex-start;
         justify-content: flex-start;
         margin: 10% 0;
+        align-content:first baseline ;
 
         /* border: 2px solid red;; */
        
@@ -179,8 +180,9 @@ iframe {
     }
 
     .profile{
-        /* border: 2px solid red; */
+       
         width: 50%;
+        height:auto;
         margin: 5% 0;
     }
 
