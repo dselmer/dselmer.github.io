@@ -188,10 +188,11 @@ iframe {
 
     img{
         width: 25rem;
+        height: 15rem;
     }
 
     a:hover{
-        border: 12px solid green;
+        border: 8px solid green;
 
     }
 }
