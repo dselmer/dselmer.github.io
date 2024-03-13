@@ -27,7 +27,7 @@ body,
 .navbar {
     /* border: 2px solid red; */
     justify-content: center;
-    height: 30%;
+    height: 50%;
     width: 100%;
     background-color: #000000;
     color: #FFFF;
@@ -126,4 +126,29 @@ iframe{
 
 .character-section{
     border-bottom: 100px solid black;
+}
+
+@media screen and (min-width: 1250px) {
+    .navbar,
+    .logo-container,
+    .navbarLinks-container
+    {
+        /* border: 2px solid red; */
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-evenly;
+       align-items: center;
+       height: 6.5%;
+       font-size: 1.1rem;
+    }
+
+    .navbar-links {
+        /* border: 2px solid green;  */   
+        padding: 1% 0;
+    }
+
+    .logo-container {
+  width: 25%;
+        padding: 3.2% 0;
+    }
 }
