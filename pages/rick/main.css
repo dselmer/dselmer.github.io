@@ -16,7 +16,7 @@ body {
     /* border:2px solid red; */
 }
 
-.details-wrapper {
+.details-box {
     height: fit-content;
     border: 2px solid green;
     ;
@@ -29,7 +29,6 @@ body {
 .details-wrapper>h2 {
     height: fit-content;
     border: 2px solid green;
-    ;
     background-color: green;
     color: #FFFF;
     border-top-left-radius: 5%;
@@ -64,4 +63,17 @@ body {
 
 .about {
     display: none;
+}
+.details-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.details-box{
+  padding: 8% 0;
+  margin: 8% 0;
+
 }
