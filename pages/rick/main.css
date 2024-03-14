@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #F8F8F8;
+}
+
+.profile-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid green
+}
+
+.meta-details{
+    border: 2px solid red;;
+    display: flex;
+    justify-content: center;
+    color: #55A630;
+}
