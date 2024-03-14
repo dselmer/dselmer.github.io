@@ -133,7 +133,7 @@ iframe {
 }
 
 .profile {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #FFFFFF;
     margin-top: 30%;
 }
