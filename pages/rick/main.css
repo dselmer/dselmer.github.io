@@ -144,6 +144,12 @@ body {
 
 }
 
+.meta-details > h6{
+    /* border:2px solid red; */
+    width: 100%;
+    text-align: center;
+}
+
 
 
 }
