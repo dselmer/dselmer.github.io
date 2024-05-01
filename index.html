@@ -2,102 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>Rick and Morty</title>
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="logo-container">
-            <h3 class="logo">Rick & Morty</h3>
-        </div>
-        <div class="navbarLinks-container">
-            <a class="navbar-links">About Us</a>
-            <a href="#characters " class="navbar-links">Chacters list</a>
-            <a class="navbar-links">Episodes</a>
-        </div>
-    </div>
-
-    <!-- main section -->
-
-    <div class="wrapper">
-        <div class="main">
-            <div class="details">
-                <h3>New Seaons Of Rick & Morty</h3>
-                <iframe  src="https://www.youtube.com/embed/qRdzw2Osl8o?si=TeMTLQIEI67xb7NK" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <h2>Watch Trailer</h2>
-                <p>
-                    The Rick and Morty Wiki is an unofficial collaborative database for the hit [adult swim] series Rick
-                    and Morty, a science-fiction, black comedy series about genius inventor, Rick Sanchez, and his naive
-                    grandson, Morty Smith. The American animated television show is created by Justin Roiland and Dan
-                    Harmon. It premiered on Cartoon Network's [adult swim] block on December 2, 2013.
-                    This wiki was founded on December 9, 2013 and currently has 2,387 articles! The wiki format allows
-                    anyone to create or edit any article, and we welcome any contributors.
-                </p>
-            </div>
-            <div class="btn-container">
-                <a class="CTA-btn" >Watch Now</a>
+    <div class="container">
+        <div class="header">
+            <h1>Todo List...</h1>
+            <div class="inputContainer">
+                <input class="inputs" type="text" id="lname" name="lname">
+                <input class="submit" type="button" value="Add Task">
             </div>
         </div>
     </div>
-
-
-    <!-- charcter section -->
-
-    <div id="characters" class="character-section">
-        <div class="profile">
-            <div class="charcter-photo">
-                <h2>Rick Sanchez</h2>
-                <a title="click to see character profile"  href="./pages/rick/rick.html" target="_blank">
-                    <img src="./resources/rick.jpeg"/>
-                </a>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="charcter-photo">
-                <h2>Morty Smith</h2>
-                <a title="click to see character profile" href="./pages/morty/morty.html" target="_blank">
-                    <img src="./resources/morty.jpeg"/>
-                </a>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="charcter-photo">
-                <h2>Beth Smith</h2>
-                <a title="click to see character profile"  href="./pages/beth/beth.html" target="_blank">
-                    <img src="./resources/beth.jpeg"/>
-                </a>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="charcter-photo">
-                <h2>Summer Smith</h2>
-                <a title="click to see character profile"  href="./pages/summer/summer.html" target="_blank">
-                    <img src="./resources/summer.jpeg"/>
-                </a>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="charcter-photo">
-                <h2>Jerry Smith</h2>
-                <a title="click to see character profile"  href="./pages/jerry/jerry.html" target="_blank">
-                    <img src="./resources/jerry.jpeg"/>
-                </a>
-            </div>
-        </div>
-
-    </div>
-
+    <script type="module" src="./js/TodoFunctions/todoFunctions.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>

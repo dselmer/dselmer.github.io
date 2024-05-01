@@ -1,0 +1,25 @@
+{
+  "name": "todolistplainjs_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
